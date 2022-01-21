@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.5"
+  },
+  "name": "graphql_intro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.16.10",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7"
+  }
+}
